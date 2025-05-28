@@ -1,0 +1,15 @@
+footer{
+  background: #111827 !important;
+    color: #fff !important;
+  padding: 3rem 0;
+}
+
+.footer-linkes a {
+  color: #959fae !important;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-linkes a:hover {
+  color: #fff !important;
+  transition: color 0.2s;
+}

@@ -1,0 +1,186 @@
+.doctor-dashboard-container {
+  min-height: 100vh;
+ background-color: #f8f9fc;
+  padding-bottom: 40px;
+
+}
+
+.doctor-dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2.5rem 1.5rem 2.5rem;
+  background: rgba(255,255,255,0.95);
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.doctor-dashboard-logo {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.doctor-dashboard-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2d6cdf;
+  letter-spacing: 1px;
+}
+
+.doctor-dashboard-logout-btn {
+  background: linear-gradient(90deg, #2d6cdf 0%, #89f7fe 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.doctor-dashboard-logout-btn:hover {
+  background: linear-gradient(90deg, #89f7fe 0%, #2d6cdf 100%);
+}
+
+.doctor-dashboard-welcome {
+  background: #fff;
+  margin: 2rem auto 1.5rem auto;
+  max-width: 700px;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(60, 60, 120, 0.08);
+  padding: 2rem 2.5rem;
+  text-align: center;
+}
+
+.doctor-dashboard-username {
+  color: #2d6cdf;
+  font-weight: 600;
+}
+
+.doctor-dashboard-section {
+  max-width: 900px;
+  margin: 2rem auto 0 auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(60, 60, 120, 0.08);
+  padding: 2rem 2.5rem;
+}
+
+.doctor-dashboard-section h3 {
+  color: #2d6cdf;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.doctor-dashboard-slot-form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.doctor-dashboard-input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fafaff;
+  transition: border 0.2s;
+}
+
+.doctor-dashboard-input:focus {
+  border: 1.5px solid #2d6cdf;
+  outline: none;
+}
+
+.doctor-dashboard-create-btn {
+  background: linear-gradient(90deg, #2d6cdf 0%, #89f7fe 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.doctor-dashboard-create-btn:hover {
+  background: linear-gradient(90deg, #89f7fe 0%, #2d6cdf 100%);
+}
+
+.doctor-dashboard-empty {
+  color: #888;
+  font-size: 1.05rem;
+  margin: 1.2rem 0;
+  text-align: center;
+}
+
+.doctor-dashboard-appointments-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.doctor-dashboard-appointment-card {
+  background: #fafaff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(45, 108, 223, 0.07);
+  padding: 1.2rem 1.5rem;
+  min-width: 260px;
+  flex: 1 1 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  position: relative;
+}
+
+.doctor-dashboard-status {
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 0.15rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.97rem;
+}
+
+.doctor-dashboard-status.booked {
+  background: #c2e9fb;
+  color: #2d6cdf;
+}
+
+
+.doctor-dashboard-link {
+  color: #2d6cdf;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.doctor-dashboard-video-btn {
+  margin-top: 0.7rem;
+  background: linear-gradient(90deg, #2d6cdf 0%, #89f7fe 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.97rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.doctor-dashboard-video-btn:hover {
+  background: linear-gradient(90deg, #89f7fe 0%, #2d6cdf 100%);
+}

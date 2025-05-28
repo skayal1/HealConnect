@@ -1,0 +1,193 @@
+.patient-dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  padding-bottom: 40px;
+}
+
+.patient-dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2.5rem 1.5rem 2.5rem;
+  background: rgba(255,255,255,0.95);
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.dashboard-logo {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.dashboard-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #7f53ac;
+  letter-spacing: 1px;
+}
+
+.dashboard-logout-btn {
+  background: linear-gradient(90deg, #7f53ac 0%, #647dee 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dashboard-logout-btn:hover {
+  background: linear-gradient(90deg, #647dee 0%, #7f53ac 100%);
+}
+
+.dashboard-welcome {
+  background: #fff;
+  margin: 2rem auto 1.5rem auto;
+  max-width: 700px;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(60, 60, 120, 0.08);
+  padding: 2rem 2.5rem;
+  text-align: center;
+}
+
+.dashboard-username {
+  color: #7f53ac;
+  font-weight: 600;
+}
+
+.dashboard-records-btn {
+  margin-top: 1rem;
+  background: linear-gradient(90deg, #7f53ac 0%, #647dee 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dashboard-records-btn:hover {
+  background: linear-gradient(90deg, #647dee 0%, #7f53ac 100%);
+}
+
+.dashboard-section {
+  max-width: 900px;
+  margin: 2rem auto 0 auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(60, 60, 120, 0.08);
+  padding: 2rem 2.5rem;
+}
+
+.dashboard-section h3 {
+  color: #7f53ac;
+  margin-bottom: 1.2rem;
+}
+
+.dashboard-table-wrapper {
+  overflow-x: auto;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fafaff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dashboard-table th, .dashboard-table td {
+  padding: 0.85rem 1rem;
+  text-align: left;
+}
+
+.dashboard-table th {
+  background: #f3e8ff;
+  color: #7f53ac;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.dashboard-table tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dashboard-table tr:last-child {
+  border-bottom: none;
+}
+
+.dashboard-book-btn {
+  background: linear-gradient(90deg, #7f53ac 0%, #647dee 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dashboard-book-btn:hover {
+  background: linear-gradient(90deg, #647dee 0%, #7f53ac 100%);
+}
+
+.dashboard-empty {
+  color: #888;
+  font-size: 1.05rem;
+  margin: 1.2rem 0;
+  text-align: center;
+}
+
+.dashboard-appointments-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.dashboard-appointment-card {
+  background: #fafaff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(127, 83, 172, 0.07);
+  padding: 1.2rem 1.5rem;
+  min-width: 260px;
+  flex: 1 1 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  position: relative;
+}
+
+.dashboard-status {
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 0.15rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.97rem;
+}
+
+.dashboard-status.booked {
+  background: #e0c3fc;
+  color: #7f53ac;
+}
+
+.dashboard-cancel-btn {
+  margin-top: 0.7rem;
+  background: #fff0f0;
+  color: #d32f2f;
+  border: 1px solid #ffcdd2;
+  border-radius: 8px;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.97rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.dashboard-cancel-btn:hover {
+  background: #ffd6d6;
+  color: #b71c1c;}

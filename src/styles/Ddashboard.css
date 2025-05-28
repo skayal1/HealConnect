@@ -1,0 +1,90 @@
+/* DoctorDashboard.css */
+
+.doctor-dashboard {
+  background-color: #f8f9fc;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #fff;
+  height: 100vh;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sidebar .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #4c51bf;
+  margin-bottom: 2rem;
+}
+
+.sidebar .nav-link {
+  color: #444;
+  margin-bottom: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  color: #4c51bf;
+  font-weight: 500;
+}
+
+.stat-card {
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.stat-card h4 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.stat-card.purple {
+  background-color: #6c5ce7;
+}
+
+.stat-card.red {
+  background-color: #d63031;
+}
+
+.stat-card.yellow {
+  background-color: #fdcb6e;
+  color: #333;
+}
+
+.stat-card.blue {
+  background-color: #0984e3;
+}
+
+.profile-info img {
+  width: 40px;
+  height: 40px;
+}
+
+.gender-chart span {
+  font-size: 0.9rem;
+  display: block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    margin-left: 0 !important;
+  }
+
+  .profile-info {
+    display: none !important;
+  }
+
+  .doctor-dashboard {
+    padding: 1rem;
+  }
+}
