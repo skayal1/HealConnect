@@ -10,7 +10,7 @@ const Footer = () => {
         <Row className="mb-4">
           <Col md={4} className="mb-3">
             <h5 className="mb-3">
-              <i className="bi bi-heart-fill text-primary me-2 text-light"></i>MediConnect
+              <i className="bi bi-heart-fill text-primary me-2 text-light"></i>HealConnect
             </h5>
             <p className="small">
               Connecting patients with qualified healthcare professionals for virtual consultations and providing access to homeopathic medicine information.
