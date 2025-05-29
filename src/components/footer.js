@@ -58,7 +58,7 @@ const Footer = () => {
 
         <Row className="d-flex justify-content-between align-items-center">
           <Col md={6} className="small">
-            © 2025 MediConnect. All rights reserved.
+            © 2025 HealConnect. All rights reserved.
           </Col>
           <Col md={6} className="text-md-end small">
             <a href="#" className="text-light text-decoration-none me-3">Terms</a>
