@@ -5,7 +5,7 @@ import './../styles/Footer.css'; // Optional: for custom styling if needed
 
 const Footer = () => {
   return (
-    <footer className="pt-5 pb-5 mt-3">
+    <footer className="pt-5 pb-5">
       <Container>
         <Row className="mb-4">
           <Col md={4} className="mb-3">
